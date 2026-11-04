@@ -105,6 +105,10 @@ There are two ways to replace textures:
 
 A modified fork of SubCraft that supports loading BLACK `.db` files, editing textures, and rebuilding the database through the Export window.
 
+### SubCraft Fork
+
+![SubCraft](screenshot/SubCraft.png)
+
 ### Standalone Python Texture Tool
 
 Run:
