@@ -112,15 +112,15 @@ The new in-game weapon purchasing system.
 
 | Weapon Armory – AK | Weapon Selection |
 |:---:|:---:|
-| ![Armory AK](screenshots/armory1.png) | ![Weapon Selection](screenshots/armory2.png) |
+| ![Armory AK](screenshot/armory1.png) | ![Weapon Selection](screenshot/armory2.png) |
 
 | Weapon Preview |
 |:---:|
-| ![Weapon Preview](screenshots/armory3.png) |
+| ![Weapon Preview](screenshot/armory3.png) |
 
 ### Muzzle Flash Effects
 
-![Muzzle Flash](screenshots/muzleflash.jpg)
+![Muzzle Flash](screenshot/muzleflash.jpg)
 
 ### Weather & Environmental Effects
 
