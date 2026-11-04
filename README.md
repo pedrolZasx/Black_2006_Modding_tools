@@ -14,7 +14,11 @@ The tools are still a work in progress. Some features are experimental, and tuto
 
 **Enjoy modding BLACK (2006)!**
 
+- NEW Update Maya Control Rig Builder IK\FK for Custom Animation
 
+### Control Rig Builder
+
+![Muzzle Flash](screenshot/rig.png)
 
 ## Screenshots & Features
 
