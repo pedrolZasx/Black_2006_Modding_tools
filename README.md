@@ -110,7 +110,7 @@ Feedback, bug reports, and contributions are very welcome!
 
 The new in-game weapon purchasing system.
 
-| Weapon Armory – AK | Weapon Selection |
+| Weapon Armory – AK | Ammo Selection |
 |:---:|:---:|
 | ![Armory AK](screenshot/armory1.png) | ![Weapon Selection](screenshot/armory2.png) |
 
@@ -126,6 +126,8 @@ The new in-game weapon purchasing system.
 
 Experimental weather and lighting improvements in BLACK (2006).
 
+The armory 3D weapon inspect using Gmesh format you can convert DB to Gmesh using python code ```db_to_gmesh.py```
+
 | Weather FX – Showcase 1 | Weather FX – Showcase 2 |
-|:---:|:---:|
-| ![Weather FX 1](screenshots/weather1.jpg) | ![Weather FX 2](screenshots/weather2.jpg) |
+
+ea
