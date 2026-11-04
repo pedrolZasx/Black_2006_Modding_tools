@@ -120,6 +120,12 @@ The loader is based on **Spark198rus' BLACK PC loader** and includes several add
 - **Weapon armory:** Buy weapons in-game.
 - **Point system.**
 - **Color grading.**
+- **muzzle flash light the environment**
+ 
+- **ADS but not fully working disable enable inside PC setting**
+- **light placer ; again not fully working**
+- **level Editor ; also not fully working but you can build on it**
+
 
 Weather effects can be adjusted through the INI configuration file.
 
@@ -136,3 +142,4 @@ The FX system is still in its early stages. I would be glad to see the community
 Feedback, bug reports, and contributions are very welcome!
 
 ---
+
