@@ -100,3 +100,32 @@ Feedback, bug reports, and contributions are very welcome!
 - Tutorials and documentation will be added as the project develops.
 
 **Enjoy modding BLACK (2006)!**
+
+
+
+
+## Screenshots & Features
+
+### Weapon Armory
+
+The new in-game weapon purchasing system.
+
+| Weapon Armory – AK | Weapon Selection |
+|:---:|:---:|
+| ![Armory AK](screenshots/armory1.png) | ![Weapon Selection](screenshots/armory2.png) |
+
+| Weapon Preview |
+|:---:|
+| ![Weapon Preview](screenshots/armory3.png) |
+
+### Muzzle Flash Effects
+
+![Muzzle Flash](screenshots/muzleflash.jpg)
+
+### Weather & Environmental Effects
+
+Experimental weather and lighting improvements in BLACK (2006).
+
+| Weather FX – Showcase 1 | Weather FX – Showcase 2 |
+|:---:|:---:|
+| ![Weather FX 1](screenshots/weather1.jpg) | ![Weather FX 2](screenshots/weather2.jpg) |
