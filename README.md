@@ -1,0 +1,3 @@
+- a fork of SubCraft that you can load db files and adjust the textures and rebuild db file in the export window
+-python code that replace textures if you don't want to use SubCraft
+-
