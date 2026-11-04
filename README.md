@@ -103,7 +103,6 @@ Feedback, bug reports, and contributions are very welcome!
 
 
 
-
 ## Screenshots & Features
 
 ### Weapon Armory
@@ -128,10 +127,8 @@ Experimental weather and lighting improvements in BLACK (2006).
 
 | Weather FX – Showcase 1 | Weather FX – Showcase 2 |
 |:---:|:---:|
-| ![Weather FX 1](screenshot/weather1.jpg) | ![Weather FX 2](screenshots/weather2.jpg) |
+| ![Weather FX 1](screenshot/weather1.jpg) | ![Weather FX 2](screenshot/weather2.jpg) |
 
 
 The armory 3D weapon inspect using Gmesh format you can convert DB to Gmesh using python code ```db_to_gmesh.py```
 
-
-ea
