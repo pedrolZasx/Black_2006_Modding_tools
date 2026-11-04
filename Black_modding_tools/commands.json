@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "commands": [
+    {
+      "id": "3c9b80be-6aa6-48f0-9d9b-694dccc8c21e",
+      "order": 1,
+      "name": "db > anim to json",
+      "command": "python black_anim_bake_v5_3.py \"{clip_anim}\" \"{source_db}\" \"{baked_json}\" --fps 30",
+      "comment": "Uses the Level / DB / Clip dropdowns and the reload_baked.json path.",
+      "working_directory": "{tools_dir}"
+    },
+    {
+      "id": "478acc9c-3e4b-49c4-a970-92d894690e59",
+      "order": 2,
+      "name": "do change and bake in maya json",
+      "command": "echo MANUAL STEP in Maya: load \"{baked_json}\", edit, bake, then save as \"{edit_json}\"",
+      "comment": "Manual step. Just prints the paths to use.",
+      "working_directory": ""
+    },
+    {
+      "id": "a2787e9a-a1aa-46df-b910-99f237883f95",
+      "order": 3,
+      "name": "create only pos json",
+      "command": "python make_reload_position_only_json.py --baseline \"{baked_json}\" --edited \"{edit_json}\" --output \"{pos_json}\"",
+      "comment": "",
+      "working_directory": "{tools_dir}"
+    },
+    {
+      "id": "6c79e530-ad88-4183-b00c-f0ed5b6f57c3",
+      "order": 4,
+      "name": "patch clip > modded anim",
+      "command": "python black_anim_patch_multitrack_inplace_3.py --edited-json \"{edit_json}\" --baseline-json \"{baked_json}\" --template-anim \"{clip_anim}\" --source-db \"{source_db}\" --output-db \"{scratch_db}\" --output-anim \"{out_anim}\"",
+      "comment": "Writes the modded anim into Modding_project\\pfguns_anim_mod\\levels\\<level>\\<db>\\ (same file name as the clip). The scratch db is only a by-product.",
+      "working_directory": "{tools_dir}"
+    },
+    {
+      "id": "9d3f4c6e-5b0a-4f8e-8e51-2c7a1b6d9f10",
+      "order": 5,
+      "name": "build db from pfguns_anim_mod",
+      "command": "python black_db_pack_anims.py --source-db \"{source_db}\" --original-anim-dir \"{extract_dir}\" --mod-anim-dir \"{mod_anim_dir}\" --output-db \"{out_db}\"",
+      "comment": "Packs EVERY modded anim in pfguns_anim_mod (all clips you edited) into a fresh copy of the original db.",
+      "working_directory": "{tools_dir}"
+    },
+    {
+      "id": "f5074120-dbae-4588-bc92-ba242e902f61",
+      "order": 6,
+      "name": "copy db to game",
+      "command": "copy /Y \"{out_db}\" \"{game_db_dest}\"",
+      "comment": "COPY of the built modded db to <game>\\levels\\<level>\\fpguns\\<db name>",
+      "working_directory": ""
+    }
+  ]
+}

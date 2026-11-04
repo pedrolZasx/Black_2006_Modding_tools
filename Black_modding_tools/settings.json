@@ -1,0 +1,15 @@
+{
+  "game_root": "R:\\black\\game",
+  "level": "level_03",
+  "db": "BG1_BNS.db",
+  "clip": "",
+  "tools_dir": "C:\\Users\\username\\Mod_codes",
+  "extract_template": "python black_fps_anim_tool.py extract \"{db}\" \"{out_dir}\"",
+  "fbx_template": "python black_fps_extract_fbx_maya_v6.py \"{db}\" \"{out_fbx}\"",
+  "auto_paths": "1",
+  "baked_json": "C:\\Users\\username\\\\Modding_project\\work\\reload_baked.json",
+  "edit_json": "C:\\Users\\username\\\\Modding_project\\work\\reload_edit.json",
+  "pos_json": "C:\\Users\\username\\\\Modding_project\\work\\reload_edit_position_only.json",
+  "out_db": "C:\\Users\\username\\\\Modding_project\\work\\modded.db",
+  "out_anim": "C:\\Users\\username\\\\Modding_project\\work\\modded.anim"
+}

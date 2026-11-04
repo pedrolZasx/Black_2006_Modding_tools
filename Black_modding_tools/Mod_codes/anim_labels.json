@@ -1,0 +1,59 @@
+{
+  "_help": "Per-weapon clip labels. Key = .db name without extension, id = number in the clip ID (FP_P_S_105 -> \"105\"). Entries below were generated from the event names inside each clip, NOT confirmed in game: correct them by hand. Weapons that are not listed get \"guess-<what>\" names from the same events.",
+  "bg1_ak1": {
+    "001": "melee",
+    "050": "silencer",
+    "100": "fire",
+    "101": "silencer",
+    "102": "equip_or_holster",
+    "104": "fire",
+    "105": "reload",
+    "111": "walk",
+    "112": "equip_or_holster",
+    "113": "equip_or_holster",
+    "125": "reload",
+    "173": "fire_select",
+    "300": "grenade",
+    "501": "stumble_flip"
+  },
+  "bg1_bns": {
+    "050": "reload",
+    "100": "equip_or_holster",
+    "101": "equip_or_holster",
+    "102": "walk",
+    "103": "fire",
+    "105": "fire_select",
+    "110": "reload",
+    "111": "melee"
+  },
+  "bg1_hvy": {
+    "050": "fire",
+    "100": "equip_or_holster",
+    "101": "melee",
+    "103": "reload",
+    "104": "walk",
+    "111": "reload",
+    "125": "equip_or_holster",
+    "170": "equip_or_holster",
+    "171": "grenade"
+  },
+  "bg1_pst": {
+    "001": "weapon_down",
+    "050": "reload_ignore_not_ingame",
+    "100": "inspect_in_game",
+    "101": "weapn_drop",
+    "102": "weapn_inspec2_not_ingame",
+    "103": "fire",
+    "104": "fire",
+    "105": "reload_ingame",
+    "110": "walk",
+    "111": "un_equip_in_game",
+    "112": "silencer",
+    "113": "silencer",
+    "114": "equip_in_game",
+    "125": "grenade_not_in_game",
+    "190": "fire",
+    "300": "fire",
+    "501": "fire"
+  }
+}
